@@ -7,7 +7,7 @@ buildscript {
 }
 
 plugins {
-    id 'nebula.netflixoss' version '3.6.0'
+    id 'nebula.netflixoss' version '5.1.0'
 }
 
 idea {
@@ -41,7 +41,7 @@ allprojects {
         woodstoxVersion = '5.2.1'
 
         // test deps
-        jetty_version = '7.2.0.v20101020'
+        jetty_version = '9.4.12.v20180830'
         junit_version = '4.11'
         mockitoVersion = '1.10.19'
         mockserverVersion = '3.9.2'
